@@ -1,0 +1,143 @@
+/***** BASE STYLES *****/
+body {
+  font-family: "Montserrat";
+}
+
+/***** GRID *****/
+.full-width {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.half-width {
+  width: 600px;
+  float: left;
+}
+
+.third-width {
+  width: 368px;
+  float: left;
+}
+
+/***** HEADER *****/
+header {
+  height: 130px;
+}
+
+header h1 {
+  font-size: 30px;
+  text-transform: uppercase;
+  padding: 40px 0 0 20px;
+}
+
+header a {
+  text-decoration: none;
+  color: black;
+}
+
+header h1 span {
+  color: #77a466;
+}
+
+nav {
+  padding: 55px 0 0 20px;
+  float: right;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  text-decoration: none;
+  padding-left: 12px;
+  color: #77a466;
+  text-transform: uppercase;
+}
+
+
+/***** TOP SECTION *****/
+#top-section {
+  height: 475px;
+  clear: both;
+}
+
+#top-section h3 {
+  color: #77a466;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#top-section p {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 30px;
+}
+
+#top-section #hero-image {
+  border-top: 3px solid #77a466;
+  border-bottom: 3px solid #77a466;
+}
+
+
+/***** BOTTOM SECTION *****/
+#bottom-section {
+  height: 210px;
+  border-top: 1px solid #eeeeee;
+}
+
+#bottom-section h4 {
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+#bottom-section ul {
+  color: #77a466;
+  padding: 0;
+}
+
+#bottom-section li {
+  list-style: none;
+  line-height: 40px;
+  font-weight: 300;
+}
+
+#bottom-section p {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 25px;
+  width: 360px;
+}
+
+#bottom-section #middle {
+  border-left: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
+  padding-left: 30px;
+  padding-right: 15px;
+  padding-bottom: 12px;
+}
+
+#bottom-section #end {
+  padding-left: 30px;
+}
+
+#bottom-section .third-width {
+  padding-top: 10px;
+}
+
+
+/***** FOOTER *****/
+footer {
+  clear: both;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 14px;
+  border-top: 1px solid #eeeeee;
+}
+
+footer span {
+  font-family: Oleo Script;
+  color: #77a466;
+}
